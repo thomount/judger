@@ -1,4 +1,4 @@
-from manager import Task
+from .manager import Task
 import os
 class Problem:
 	def __init__(self, **argv):

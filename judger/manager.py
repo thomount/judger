@@ -1,5 +1,5 @@
+from .runner import judge
 import threading
-import judger
 import time
 class Result:
 	def __init__(self):
@@ -36,7 +36,7 @@ class Job:
 		self.id = _id
 	def run(self):
 		#print('run job', self.id, 'code = ', self.code)
-		x, info = judger.judge(self.code, self.ins, self.outs)
+		x, info = judge(self.code, self.ins, self.outs)
 		self.res.add([x, info], self.score)
 		#print('job', self.id, 'finish')
 		
