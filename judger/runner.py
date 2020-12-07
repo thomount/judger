@@ -32,7 +32,7 @@ def runner(input, print, program):
 	start_time = time.time()
 	try:
 		exec(program)
-		return 1, time.time()-start_time
+		return 1, '%.3f'%(time.time()-start_time)
 	except Exception as e:
 		return 0, 'code:'+program+'error:'+str(e)
 
