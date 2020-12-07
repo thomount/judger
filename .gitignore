@@ -1,5 +1,5 @@
 .vscode/
 __pycache__/
-config.txt
 build/
 dist/
+judger.egg-info

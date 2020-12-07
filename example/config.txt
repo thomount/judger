@@ -1,0 +1,16 @@
+problem=volume
+code=C:\Files\projects\judger\example\code
+io=C:\Files\projects\judger\example\test\1volume
+end
+problem=exp
+code=C:\Files\projects\judger\example\code
+io=C:\Files\projects\judger\example\test\2exp
+end
+problem=score
+code=C:\Files\projects\judger\example\code
+io=C:\Files\projects\judger\example\test\3score
+end
+problem=year
+code=C:\Files\projects\judger\example\code
+io=C:\Files\projects\judger\example\test\4year
+end
