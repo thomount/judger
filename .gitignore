@@ -2,4 +2,4 @@
 __pycache__/
 build/
 dist/
-judger.egg-info
+judger.egg-info/
